@@ -33,10 +33,18 @@ Your development environment should now be all set.
 
 ### Cloning and installing the project
 
-Under an empty folder, clone the repository and checkout the dev branch
+Under an empty folder, clone the repository
 ```
 $ git clone https://github.com/PiPoutch/KCD
 $ cd KCD
+```
+
+you should create a folder called env/ that contains a env.ts file which should contain your Fixer API key in this format:
+
+```
+export const env = {
+  FIXER_API_KEY: 'xxx'
+}
 ```
 
 Install the project dependencies

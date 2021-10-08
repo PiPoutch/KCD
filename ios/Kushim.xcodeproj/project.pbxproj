@@ -36,6 +36,7 @@
 		393E3910270FDD5B0094B3BB /* libReact-RCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 393E390F270FDD5B0094B3BB /* libReact-RCTVibration.a */; };
 		393E3912270FDD5B0094B3BB /* libReactCommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 393E3911270FDD5B0094B3BB /* libReactCommon.a */; };
 		3DDC3D941A9518A8F8D9ACFB /* libPods-Kushim-KushimTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 494EA74E99A3325D7E002A22 /* libPods-Kushim-KushimTests.a */; };
+		4310C9A9F1CE5B665F7598C7 /* libPods-Kushim-KushimTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 393E38E9270FDD5B0094B3BB /* libPods-Kushim-KushimTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -117,6 +118,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DDC3D941A9518A8F8D9ACFB /* libPods-Kushim-KushimTests.a in Frameworks */,
+				4310C9A9F1CE5B665F7598C7 /* libPods-Kushim-KushimTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
