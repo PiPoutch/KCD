@@ -1,0 +1,825 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* KushimTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* KushimTests.m */; };
+		0E2992065897875C33D552F9 /* libPods-Kushim.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FBE3AD4188300F30740840B0 /* libPods-Kushim.a */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		393E38C5270FCFCC0094B3BB /* ConversionModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393E38C4270FCFCC0094B3BB /* ConversionModule.swift */; };
+		393E38C7270FD2780094B3BB /* Converter.m in Sources */ = {isa = PBXBuildFile; fileRef = 393E38C6270FD2780094B3BB /* Converter.m */; };
+		393E38C8270FDB490094B3BB /* Pods-Kushim.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 48A2F1196BFE532DC8011F9E /* Pods-Kushim.debug.xcconfig */; };
+		393E38C9270FDB490094B3BB /* Pods-Kushim.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2DAF71258BD22304B7C31EB5 /* Pods-Kushim.release.xcconfig */; };
+		393E38CA270FDD050094B3BB /* libPods-Kushim.a in Resources */ = {isa = PBXBuildFile; fileRef = FBE3AD4188300F30740840B0 /* libPods-Kushim.a */; };
+		393E38EC270FDD5B0094B3BB /* libPods-Kushim.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 393E38EB270FDD5B0094B3BB /* libPods-Kushim.a */; };
+		393E38F2270FDD5B0094B3BB /* libReact-Core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 393E38F1270FDD5B0094B3BB /* libReact-Core.a */; };
+		393E38F4270FDD5B0094B3BB /* libReact-CoreModules.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 393E38F3270FDD5B0094B3BB /* libReact-CoreModules.a */; };
+		393E38F6270FDD5B0094B3BB /* libReact-cxxreact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 393E38F5270FDD5B0094B3BB /* libReact-cxxreact.a */; };
+		393E38F8270FDD5B0094B3BB /* libReact-jsi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 393E38F7270FDD5B0094B3BB /* libReact-jsi.a */; };
+		393E38FA270FDD5B0094B3BB /* libReact-jsiexecutor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 393E38F9270FDD5B0094B3BB /* libReact-jsiexecutor.a */; };
+		393E38FC270FDD5B0094B3BB /* libReact-jsinspector.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 393E38FB270FDD5B0094B3BB /* libReact-jsinspector.a */; };
+		393E38FE270FDD5B0094B3BB /* libReact-logger.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 393E38FD270FDD5B0094B3BB /* libReact-logger.a */; };
+		393E3900270FDD5B0094B3BB /* libReact-perflogger.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 393E38FF270FDD5B0094B3BB /* libReact-perflogger.a */; };
+		393E3902270FDD5B0094B3BB /* libReact-RCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 393E3901270FDD5B0094B3BB /* libReact-RCTAnimation.a */; };
+		393E3904270FDD5B0094B3BB /* libReact-RCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 393E3903270FDD5B0094B3BB /* libReact-RCTBlob.a */; };
+		393E3906270FDD5B0094B3BB /* libReact-RCTImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 393E3905270FDD5B0094B3BB /* libReact-RCTImage.a */; };
+		393E3908270FDD5B0094B3BB /* libReact-RCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 393E3907270FDD5B0094B3BB /* libReact-RCTLinking.a */; };
+		393E390A270FDD5B0094B3BB /* libReact-RCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 393E3909270FDD5B0094B3BB /* libReact-RCTNetwork.a */; };
+		393E390C270FDD5B0094B3BB /* libReact-RCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 393E390B270FDD5B0094B3BB /* libReact-RCTSettings.a */; };
+		393E390E270FDD5B0094B3BB /* libReact-RCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 393E390D270FDD5B0094B3BB /* libReact-RCTText.a */; };
+		393E3910270FDD5B0094B3BB /* libReact-RCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 393E390F270FDD5B0094B3BB /* libReact-RCTVibration.a */; };
+		393E3912270FDD5B0094B3BB /* libReactCommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 393E3911270FDD5B0094B3BB /* libReactCommon.a */; };
+		3DDC3D941A9518A8F8D9ACFB /* libPods-Kushim-KushimTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 494EA74E99A3325D7E002A22 /* libPods-Kushim-KushimTests.a */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = Kushim;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* KushimTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KushimTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* KushimTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KushimTests.m; sourceTree = "<group>"; };
+		08F9BE9ABB2B6F775D82FBB9 /* Pods-Kushim-KushimTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kushim-KushimTests.release.xcconfig"; path = "Target Support Files/Pods-Kushim-KushimTests/Pods-Kushim-KushimTests.release.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* Kushim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kushim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Kushim/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Kushim/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Kushim/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Kushim/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Kushim/main.m; sourceTree = "<group>"; };
+		2DAF71258BD22304B7C31EB5 /* Pods-Kushim.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kushim.release.xcconfig"; path = "Target Support Files/Pods-Kushim/Pods-Kushim.release.xcconfig"; sourceTree = "<group>"; };
+		393E38C3270FCFCC0094B3BB /* Kushim-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Kushim-Bridging-Header.h"; sourceTree = "<group>"; };
+		393E38C4270FCFCC0094B3BB /* ConversionModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionModule.swift; sourceTree = "<group>"; };
+		393E38C6270FD2780094B3BB /* Converter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Converter.m; sourceTree = "<group>"; };
+		393E38CB270FDD5B0094B3BB /* double-conversion.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "double-conversion.xcframework"; path = "Pods/Flipper-DoubleConversion/Frameworks/double-conversion.xcframework"; sourceTree = "<group>"; };
+		393E38CD270FDD5B0094B3BB /* libCocoaAsyncSocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libCocoaAsyncSocket.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		393E38CF270FDD5B0094B3BB /* libDoubleConversion.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libDoubleConversion.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		393E38D1270FDD5B0094B3BB /* libFBReactNativeSpec.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFBReactNativeSpec.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		393E38D3270FDD5B0094B3BB /* libFlipper-Boost-iOSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libFlipper-Boost-iOSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		393E38D5270FDD5B0094B3BB /* libFlipper-Fmt.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libFlipper-Fmt.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		393E38D7270FDD5B0094B3BB /* libFlipper-Folly.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libFlipper-Folly.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		393E38D9270FDD5B0094B3BB /* libFlipper-Glog.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libFlipper-Glog.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		393E38DB270FDD5B0094B3BB /* libFlipper-PeerTalk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libFlipper-PeerTalk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		393E38DD270FDD5B0094B3BB /* libFlipper-RSocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libFlipper-RSocket.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		393E38DF270FDD5B0094B3BB /* libFlipper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFlipper.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		393E38E1270FDD5B0094B3BB /* libFlipperKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFlipperKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		393E38E3270FDD5B0094B3BB /* libfmt.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libfmt.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		393E38E5270FDD5B0094B3BB /* libglog.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglog.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		393E38E7270FDD5B0094B3BB /* liblibevent.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = liblibevent.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		393E38E9270FDD5B0094B3BB /* libPods-Kushim-KushimTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-Kushim-KushimTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		393E38EB270FDD5B0094B3BB /* libPods-Kushim.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-Kushim.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		393E38ED270FDD5B0094B3BB /* libRCT-Folly.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libRCT-Folly.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		393E38EF270FDD5B0094B3BB /* libRCTTypeSafety.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRCTTypeSafety.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		393E38F1270FDD5B0094B3BB /* libReact-Core.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-Core.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		393E38F3270FDD5B0094B3BB /* libReact-CoreModules.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-CoreModules.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		393E38F5270FDD5B0094B3BB /* libReact-cxxreact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-cxxreact.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		393E38F7270FDD5B0094B3BB /* libReact-jsi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-jsi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		393E38F9270FDD5B0094B3BB /* libReact-jsiexecutor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-jsiexecutor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		393E38FB270FDD5B0094B3BB /* libReact-jsinspector.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-jsinspector.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		393E38FD270FDD5B0094B3BB /* libReact-logger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-logger.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		393E38FF270FDD5B0094B3BB /* libReact-perflogger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-perflogger.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		393E3901270FDD5B0094B3BB /* libReact-RCTAnimation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTAnimation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		393E3903270FDD5B0094B3BB /* libReact-RCTBlob.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTBlob.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		393E3905270FDD5B0094B3BB /* libReact-RCTImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTImage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		393E3907270FDD5B0094B3BB /* libReact-RCTLinking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTLinking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		393E3909270FDD5B0094B3BB /* libReact-RCTNetwork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTNetwork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		393E390B270FDD5B0094B3BB /* libReact-RCTSettings.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTSettings.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		393E390D270FDD5B0094B3BB /* libReact-RCTText.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTText.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		393E390F270FDD5B0094B3BB /* libReact-RCTVibration.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTVibration.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		393E3911270FDD5B0094B3BB /* libReactCommon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReactCommon.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		393E3913270FDD5B0094B3BB /* libYoga.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libYoga.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		393E3915270FDD5B0094B3BB /* libYogaKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libYogaKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		393E3917270FDD5B0094B3BB /* OpenSSL.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = OpenSSL.xcframework; path = "Pods/OpenSSL-Universal/Frameworks/OpenSSL.xcframework"; sourceTree = "<group>"; };
+		48A2F1196BFE532DC8011F9E /* Pods-Kushim.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kushim.debug.xcconfig"; path = "Target Support Files/Pods-Kushim/Pods-Kushim.debug.xcconfig"; sourceTree = "<group>"; };
+		494EA74E99A3325D7E002A22 /* libPods-Kushim-KushimTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Kushim-KushimTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Kushim/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0E39A11D3D2F749927F3901 /* Pods-Kushim-KushimTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kushim-KushimTests.debug.xcconfig"; path = "Target Support Files/Pods-Kushim-KushimTests/Pods-Kushim-KushimTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		FBE3AD4188300F30740840B0 /* libPods-Kushim.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Kushim.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DDC3D941A9518A8F8D9ACFB /* libPods-Kushim-KushimTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				393E38EC270FDD5B0094B3BB /* libPods-Kushim.a in Frameworks */,
+				393E38F2270FDD5B0094B3BB /* libReact-Core.a in Frameworks */,
+				393E38F4270FDD5B0094B3BB /* libReact-CoreModules.a in Frameworks */,
+				393E38F6270FDD5B0094B3BB /* libReact-cxxreact.a in Frameworks */,
+				393E38F8270FDD5B0094B3BB /* libReact-jsi.a in Frameworks */,
+				393E38FA270FDD5B0094B3BB /* libReact-jsiexecutor.a in Frameworks */,
+				393E38FC270FDD5B0094B3BB /* libReact-jsinspector.a in Frameworks */,
+				393E38FE270FDD5B0094B3BB /* libReact-logger.a in Frameworks */,
+				393E3900270FDD5B0094B3BB /* libReact-perflogger.a in Frameworks */,
+				393E3902270FDD5B0094B3BB /* libReact-RCTAnimation.a in Frameworks */,
+				393E3904270FDD5B0094B3BB /* libReact-RCTBlob.a in Frameworks */,
+				393E3906270FDD5B0094B3BB /* libReact-RCTImage.a in Frameworks */,
+				393E3908270FDD5B0094B3BB /* libReact-RCTLinking.a in Frameworks */,
+				393E390A270FDD5B0094B3BB /* libReact-RCTNetwork.a in Frameworks */,
+				393E390C270FDD5B0094B3BB /* libReact-RCTSettings.a in Frameworks */,
+				393E390E270FDD5B0094B3BB /* libReact-RCTText.a in Frameworks */,
+				393E3910270FDD5B0094B3BB /* libReact-RCTVibration.a in Frameworks */,
+				393E3912270FDD5B0094B3BB /* libReactCommon.a in Frameworks */,
+				0E2992065897875C33D552F9 /* libPods-Kushim.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* KushimTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* KushimTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = KushimTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* Kushim */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+				393E38C4270FCFCC0094B3BB /* ConversionModule.swift */,
+				393E38C3270FCFCC0094B3BB /* Kushim-Bridging-Header.h */,
+				393E38C6270FD2780094B3BB /* Converter.m */,
+			);
+			name = Kushim;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				393E38CB270FDD5B0094B3BB /* double-conversion.xcframework */,
+				393E38CD270FDD5B0094B3BB /* libCocoaAsyncSocket.a */,
+				393E38CF270FDD5B0094B3BB /* libDoubleConversion.a */,
+				393E38D1270FDD5B0094B3BB /* libFBReactNativeSpec.a */,
+				393E38D3270FDD5B0094B3BB /* libFlipper-Boost-iOSX.a */,
+				393E38D5270FDD5B0094B3BB /* libFlipper-Fmt.a */,
+				393E38D7270FDD5B0094B3BB /* libFlipper-Folly.a */,
+				393E38D9270FDD5B0094B3BB /* libFlipper-Glog.a */,
+				393E38DB270FDD5B0094B3BB /* libFlipper-PeerTalk.a */,
+				393E38DD270FDD5B0094B3BB /* libFlipper-RSocket.a */,
+				393E38DF270FDD5B0094B3BB /* libFlipper.a */,
+				393E38E1270FDD5B0094B3BB /* libFlipperKit.a */,
+				393E38E3270FDD5B0094B3BB /* libfmt.a */,
+				393E38E5270FDD5B0094B3BB /* libglog.a */,
+				393E38E7270FDD5B0094B3BB /* liblibevent.a */,
+				393E38E9270FDD5B0094B3BB /* libPods-Kushim-KushimTests.a */,
+				393E38EB270FDD5B0094B3BB /* libPods-Kushim.a */,
+				393E38ED270FDD5B0094B3BB /* libRCT-Folly.a */,
+				393E38EF270FDD5B0094B3BB /* libRCTTypeSafety.a */,
+				393E38F1270FDD5B0094B3BB /* libReact-Core.a */,
+				393E38F3270FDD5B0094B3BB /* libReact-CoreModules.a */,
+				393E38F5270FDD5B0094B3BB /* libReact-cxxreact.a */,
+				393E38F7270FDD5B0094B3BB /* libReact-jsi.a */,
+				393E38F9270FDD5B0094B3BB /* libReact-jsiexecutor.a */,
+				393E38FB270FDD5B0094B3BB /* libReact-jsinspector.a */,
+				393E38FD270FDD5B0094B3BB /* libReact-logger.a */,
+				393E38FF270FDD5B0094B3BB /* libReact-perflogger.a */,
+				393E3901270FDD5B0094B3BB /* libReact-RCTAnimation.a */,
+				393E3903270FDD5B0094B3BB /* libReact-RCTBlob.a */,
+				393E3905270FDD5B0094B3BB /* libReact-RCTImage.a */,
+				393E3907270FDD5B0094B3BB /* libReact-RCTLinking.a */,
+				393E3909270FDD5B0094B3BB /* libReact-RCTNetwork.a */,
+				393E390B270FDD5B0094B3BB /* libReact-RCTSettings.a */,
+				393E390D270FDD5B0094B3BB /* libReact-RCTText.a */,
+				393E390F270FDD5B0094B3BB /* libReact-RCTVibration.a */,
+				393E3911270FDD5B0094B3BB /* libReactCommon.a */,
+				393E3913270FDD5B0094B3BB /* libYoga.a */,
+				393E3915270FDD5B0094B3BB /* libYogaKit.a */,
+				393E3917270FDD5B0094B3BB /* OpenSSL.xcframework */,
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				FBE3AD4188300F30740840B0 /* libPods-Kushim.a */,
+				494EA74E99A3325D7E002A22 /* libPods-Kushim-KushimTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* Kushim */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* KushimTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				C4FB538FA63F83F439F0FD2A /* Pods */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* Kushim.app */,
+				00E356EE1AD99517003FC87E /* KushimTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4FB538FA63F83F439F0FD2A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48A2F1196BFE532DC8011F9E /* Pods-Kushim.debug.xcconfig */,
+				2DAF71258BD22304B7C31EB5 /* Pods-Kushim.release.xcconfig */,
+				D0E39A11D3D2F749927F3901 /* Pods-Kushim-KushimTests.debug.xcconfig */,
+				08F9BE9ABB2B6F775D82FBB9 /* Pods-Kushim-KushimTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* KushimTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "KushimTests" */;
+			buildPhases = (
+				435EDC8EB6DE2CEFE5204AAC /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				211DDDEC8C63782973CDD077 /* [CP] Embed Pods Frameworks */,
+				867373569842535978AE05F8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = KushimTests;
+			productName = KushimTests;
+			productReference = 00E356EE1AD99517003FC87E /* KushimTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* Kushim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Kushim" */;
+			buildPhases = (
+				C075C6DA344E2D83DC1C431C /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				22BF30E729619F65F7B67A16 /* [CP] Embed Pods Frameworks */,
+				578DF66D4FA34C89A5A4FBBF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kushim;
+			productName = Kushim;
+			productReference = 13B07F961A680F5B00A75B9A /* Kushim.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1300;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Kushim" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* Kushim */,
+				00E356ED1AD99517003FC87E /* KushimTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				393E38CA270FDD050094B3BB /* libPods-Kushim.a in Resources */,
+				393E38C8270FDB490094B3BB /* Pods-Kushim.debug.xcconfig in Resources */,
+				393E38C9270FDB490094B3BB /* Pods-Kushim.release.xcconfig in Resources */,
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		211DDDEC8C63782973CDD077 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kushim-KushimTests/Pods-Kushim-KushimTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kushim-KushimTests/Pods-Kushim-KushimTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kushim-KushimTests/Pods-Kushim-KushimTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22BF30E729619F65F7B67A16 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kushim/Pods-Kushim-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kushim/Pods-Kushim-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kushim/Pods-Kushim-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		435EDC8EB6DE2CEFE5204AAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kushim-KushimTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		578DF66D4FA34C89A5A4FBBF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kushim/Pods-Kushim-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kushim/Pods-Kushim-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kushim/Pods-Kushim-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		867373569842535978AE05F8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kushim-KushimTests/Pods-Kushim-KushimTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kushim-KushimTests/Pods-Kushim-KushimTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kushim-KushimTests/Pods-Kushim-KushimTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C075C6DA344E2D83DC1C431C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kushim-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* KushimTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				393E38C5270FCFCC0094B3BB /* ConversionModule.swift in Sources */,
+				393E38C7270FD2780094B3BB /* Converter.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* Kushim */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0E39A11D3D2F749927F3901 /* Pods-Kushim-KushimTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KushimTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kushim.app/Kushim";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08F9BE9ABB2B6F775D82FBB9 /* Pods-Kushim-KushimTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = KushimTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kushim.app/Kushim";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48A2F1196BFE532DC8011F9E /* Pods-Kushim.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native/React/**";
+				INFOPLIST_FILE = Kushim/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = Kushim;
+				SWIFT_OBJC_BRIDGING_HEADER = "Kushim-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DAF71258BD22304B7C31EB5 /* Pods-Kushim.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native/React/**";
+				INFOPLIST_FILE = Kushim/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = Kushim;
+				SWIFT_OBJC_BRIDGING_HEADER = "Kushim-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "KushimTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Kushim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Kushim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
