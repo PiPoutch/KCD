@@ -36,7 +36,7 @@ Your development environment should now be all set.
 Under an empty folder, clone the repository and checkout the dev branch
 ```
 $ git clone https://github.com/PiPoutch/KCD
-$ cd Kushim
+$ cd KCD
 ```
 
 Install the project dependencies
